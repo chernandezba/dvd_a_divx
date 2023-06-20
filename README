@@ -1,0 +1,57 @@
+DVD_A_DIVX V 0.5 - 14/09/2002
+(C) César Hernández Bañó
+chernandezba@gmail.com
+
+Requerimientos:
+
+-Librerias qt2
+-Mencoder/Mplayer. Yo utilizo la version 0.90pre5
+-(Opcional) OpenDIVX
+
+Instalación del programa:
+
+Ejecutar ./configure ; make ; make install
+
+El archivo DIVX creado se guarda con el siguiente nombre:
+"/mnt/discod/peli/pelicula.avi"
+(está definido en el archivo pantallainicialimpl.cpp)
+
+El programa principal se llama dvd_a_divx, y utiliza 5 ficheros
+script mas, para iniciar la comunicacion con mencoder/mplayer
+De estos scripts, el divxplayer, podemos modificarlo para que use
+otro driver de salida (-vo) y las opciones extras (-zoom -sws 5 -hardframedrop)
+Otros 2 scripts mas, xterm_divxplayer y xterm_divxencoder, abren ventanas de
+consola del KDE (konsole), pero podemos modificarlos para que usen gterm, xterm...
+
+Uso del programa:
+
+Hay que indicar 3 parametros basicos:
+-La duracion de la pelicula. Lo podemos obtener previsualizando el DVD y llegando
+al final de la pelicula. Hay que tener cuidado en que muchas peliculas se
+dividen en capitulos, con lo cual, debemos sumar los tiempos que nos vaya
+indicando mplayer.
+-El aspecto de la pantalla (ancho/alto). Viene dado por
+mplayer bajo el texto: Movie Aspect
+-El titulo a extraer del DVD. Normalmente será el 1, pero en determinados
+DVD existen trailers al principio, con lo cual, visualizaremos el 1, y si
+no vemos la pelicula, probar con el 2, el 3 etc...
+
+El ancho de la pantalla lo podemos variar, pero con 500 da buenos resultados
+El volumen lo podemos dejar tal y como esta (ganancia del 250 %)
+El codificador; yo utilizo msmpeg4 (de la libreria lavc incluida en mplayer), aunque
+podemos usar libdivx (opendivx).
+El tamaño del archivo está por defecto a 680 MB, para que quepa en un CD
+(de 700 MB). Dejamos unos megas de margen.
+
+Con estos parámetros podemos proceder a crear el archivo DIVX; veremos que
+nos indica el tamaño actual del archivo y el porcentaje del total (inicial estimado)
+
+El programa no lleva control sobre las ventanas que va abriendo, con lo cual, si
+por ejemplo, previsualizamos el DVD, para pararlo, debemos cerrar manualmente
+la ventana abierta. Cuando mplayer o mencoder finalizan, la ventana abierta
+se cerrara en 10 segundos.
+
+Rendimiento:
+El rendimiento viene dado por el propio mplayer/mencoder; por ejemplo,
+en un AMD Athlon XP 1800, tarda aproximadamente en comprimir un DIVX, la mitad
+del tiempo del DVD, o sea, en una pelicula de 90 minutos tardara 45 minutos aprox.

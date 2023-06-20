@@ -1,0 +1,232 @@
+<!DOCTYPE TS><TS>
+<context>
+    <name>pantallainicial</name>
+    <message>
+        <source>Salir</source>
+        <translation>Exit</translation>
+    </message>
+    <message>
+        <source>Progreso del archivo</source>
+        <translation>File progress</translation>
+    </message>
+    <message>
+        <source>Calidad de la pelicula (audio)</source>
+        <translation>Movie quality (audio)</translation>
+    </message>
+    <message>
+        <source>Tama&#xf1;o archivo (MB)</source>
+        <translation>File size (MB)</translation>
+    </message>
+    <message>
+        <source>Calidad de la pelicula (video)</source>
+        <translation>Movie quality (video)</translation>
+    </message>
+    <message>
+        <source>Numero titulo</source>
+        <translation>Title number</translation>
+    </message>
+    <message>
+        <source>Tama&#xf1;o del archivo actual</source>
+        <translation>Instant file size</translation>
+    </message>
+    <message>
+        <source>Variaci&#xf3;n en el volumen de la pelicula (100% = volumen original)</source>
+        <translation>Movie volume variation (100% = source volume)</translation>
+    </message>
+    <message>
+        <source>Tama&#xf1;o deseado para el archivo (en MegaBytes)</source>
+        <translation>Wished File size (in MegaBytes)</translation>
+    </message>
+    <message>
+        <source>Ingles</source>
+        <translation>English</translation>
+    </message>
+    <message>
+        <source>Ninguno</source>
+        <translation>None</translation>
+    </message>
+    <message>
+        <source>Idioma de los subtitulos a extraer</source>
+        <translation>Subtitle language to extract</translation>
+    </message>
+    <message>
+        <source>Alto de la pelicula</source>
+        <translation>Movie height</translation>
+    </message>
+    <message>
+        <source>Directorio donde se grabara la pelicula</source>
+        <translation>Movie output directory</translation>
+    </message>
+    <message>
+        <source>Tama&#xf1;o</source>
+        <translation>Size</translation>
+    </message>
+    <message>
+        <source>Largo de la pelicula</source>
+        <translation>Movie width</translation>
+    </message>
+    <message>
+        <source>Ver el DVD y los datos asociados</source>
+        <translation>View DVD and its data</translation>
+    </message>
+    <message>
+        <source>Parte del DVD a extraer. Normalmente ser&#xe1; el numero 1</source>
+        <translation>DVD part to extract. Often it&apos;s number 1</translation>
+    </message>
+    <message>
+        <source>Acerca de...</source>
+        <translation>About...</translation>
+    </message>
+    <message>
+        <source>Idioma audio</source>
+        <translation>Audio language</translation>
+    </message>
+    <message>
+        <source>Previsualizar DIVX</source>
+        <translation>Preview DIVX</translation>
+    </message>
+    <message>
+        <source>Crear DIVX</source>
+        <translation>Make DIVX</translation>
+    </message>
+    <message>
+        <source>Aspecto</source>
+        <translation>Aspect</translation>
+    </message>
+    <message>
+        <source>Idioma del sonido a extraer</source>
+        <translation>Audio language to extract</translation>
+    </message>
+    <message>
+        <source>Relaci&#xf3;n de aspecto de la imagen del DVD</source>
+        <translation>DVD image aspect ratio</translation>
+    </message>
+    <message>
+        <source>Tama&#xf1;o de la pelicula</source>
+        <translation>Movie size</translation>
+    </message>
+    <message>
+        <source>Autor, comentarios ...</source>
+        <translation>Author, comments ...</translation>
+    </message>
+    <message>
+        <source>Idioma subtitulos</source>
+        <translation>Subtitle language</translation>
+    </message>
+    <message>
+        <source>Nombre Pelicula:</source>
+        <translation>Movie Name:</translation>
+    </message>
+    <message>
+        <source>Codificacion Open DIVX</source>
+        <translation>Open DIVX codec</translation>
+    </message>
+    <message>
+        <source>Directorio</source>
+        <translation>Directory</translation>
+    </message>
+    <message>
+        <source>Salir del programa</source>
+        <translation>Exit program</translation>
+    </message>
+    <message>
+        <source>Codificador de video del archivo</source>
+        <translation>Video file codec</translation>
+    </message>
+    <message>
+        <source>Duracion</source>
+        <translation>Length</translation>
+    </message>
+    <message>
+        <source>Tama&#xf1;o Archivo:</source>
+        <translation>File Size:</translation>
+    </message>
+    <message>
+        <source>Espa&#xf1;ol</source>
+        <translation>Spanish</translation>
+    </message>
+    <message>
+        <source>Codificador</source>
+        <translation>Codec</translation>
+    </message>
+    <message>
+        <source>Ver DVD</source>
+        <translation>View DVD</translation>
+    </message>
+    <message>
+        <source>Duracion del DVD</source>
+        <translation>DVD length</translation>
+    </message>
+    <message>
+        <source>Crear la pelicula DIVX</source>
+        <translation>Make DIVX movie</translation>
+    </message>
+    <message>
+        <source>Volumen</source>
+        <translation>Volume</translation>
+    </message>
+    <message>
+        <source>Codificacion Microsoft MPEG4</source>
+        <translation>Microsoft MPEG4 codec</translation>
+    </message>
+    <message>
+        <source>Previsualizar la pelicula generada</source>
+        <translation>Previiew movie made</translation>
+    </message>
+    <message>
+        <source>Codificacion MPEG4 est&#xe1;ndar</source>
+        <translation>MPEG4 standard codec</translation>
+    </message>
+    <message>
+        <source>Nombre de la pelicula</source>
+        <translation>Movie name</translation>
+    </message>
+</context>
+<context>
+    <name>pantallainicialimpl</name>
+    <message>
+        <source>&amp;Ver</source>
+        <translation>&amp;View</translation>
+    </message>
+    <message>
+        <source>&amp;Acerca de ...</source>
+        <translation>&amp;About...</translation>
+    </message>
+    <message>
+        <source>&amp;Ayuda</source>
+        <translation>&amp;Help</translation>
+    </message>
+    <message>
+        <source>&amp;Salir</source>
+        <translation>Exit</translation>
+    </message>
+    <message>
+        <source>D&amp;irectorio DIVX...</source>
+        <translation>D&amp;irectory DIVX...</translation>
+    </message>
+    <message>
+        <source>Acerca de...</source>
+        <translation>About...</translation>
+    </message>
+    <message>
+        <source>DVD_A_DIVX V.0.4
+(c) C&#xe9;sar Hern&#xe1;ndez Ba&#xf1;&#xf3; (14/09/2002)
+chernandezba@hotmail.com
+
+Dedicado a ... :-)</source>
+        <translation>DVD_A_DIVX V.0.4
+(c) César Hernández Bañó (14/09/2002)
+chernandezba@hotmail.com
+
+Dedicated to ... :-)</translation>
+    </message>
+    <message>
+        <source>&amp;Archivo</source>
+        <translation>&amp;File</translation>
+    </message>
+    <message>
+        <source>Previsualizar DIV&amp;X</source>
+        <translation>Preview DIV&amp;X</translation>
+    </message>
+</context>
+</TS>

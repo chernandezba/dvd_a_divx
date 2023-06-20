@@ -1,0 +1,112 @@
+/***************************************************************************
+                          main.cpp  -  description
+                             -------------------
+    begin                : mié jul 10 15:55:42 CEST 2002
+    copyright            : (C) 2002 by César Hernández Bañó
+    email                : chernandezba@gmail.com
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+
+#include <qapplication.h>
+#include <qplatinumstyle.h>
+#include <qtranslator.h>
+#include <qfileinfo.h>
+#include <qmessagebox.h>
+//#include <qstrcmp.h>
+
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+#include "pantallainicialimpl.h"
+
+pantallainicialimpl* showLang(char *l)
+{
+
+    static QTranslator *translator = 0;
+		QString lang=l;
+
+    //Obtener ruta relativamente al binario (si estamos en /opt/kde3/bin:):
+    //../share/apps/dvd_a_divx/
+    lang = "/opt/kde3/share/apps/dvd_a_divx/dvd_a_divx_" + lang + ".qm";
+    QFileInfo fi( lang );
+
+    if ( !fi.exists() && (strcmp(l,"en")!=0) ) {
+	QMessageBox::warning( 0, "File error",
+			      QString("Cannot find translation for language: "+lang+
+				      "\n(try eg. LANG='es', 'en' or 'ca')") );
+    pantallainicialimpl *m = new pantallainicialimpl;
+    return m;
+
+	return 0;
+    }
+    if ( translator ) {
+	qApp->removeTranslator( translator );
+	delete translator;
+    }
+    translator = new QTranslator( 0 );
+    translator->load( lang, "." );
+    qApp->installTranslator( translator );
+    pantallainicialimpl *m = new pantallainicialimpl;
+    return m;
+}
+
+void convertir_minusculas(char *origen,char *dest)
+{
+
+	int i;
+
+	for (i=0;origen[i];i++) {
+		if (origen[i]>='A' && origen[i]<='Z') {
+			dest[i]=origen[i]+'a'-'A';
+		}
+		else dest[i]=origen[i];
+
+	}
+	dest[i]=0;
+
+}
+
+
+int main(int argc, char *argv[])
+{
+	QApplication app(argc, argv);
+	char *i;
+	char idioma[80];
+	char *underscore;
+
+	//pantallainicialimpl pantInicial(0,"DVD_A_DIVX");
+
+  if ( (i=getenv("LANG"))==NULL)    {
+    printf ("Variable LANG no definida!\n");
+		strcpy(idioma,"en");
+	}
+	else {
+		//Convertir a minusculas
+		convertir_minusculas(i,idioma);
+
+
+		//Solo coger la parte antes del _ (si lo hay)
+		if ((underscore=strchr(idioma,'_'))!=NULL) *underscore=0;
+
+	}
+//printf ("%s\n",i);
+	//QString lang=idioma;
+	QWidget* pantInicial = showLang(idioma);
+	//app.setStyle(new QPlatinumStyle );
+	app.setMainWidget( pantInicial );
+
+	pantInicial->show();
+
+	return app.exec();
+}
+
+

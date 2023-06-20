@@ -1,0 +1,6 @@
+/usr/lib/qt3/bin/lupdate dvd_a_divx.pro
+/usr/lib/qt3/bin/linguist dvd_a_divx_XX.ts
+/usr/lib/qt3/bin/lrelease dvd_a_divx.pro
+
+cd ..
+make install

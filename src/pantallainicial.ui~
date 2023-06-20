@@ -1,0 +1,1627 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>pantallainicial</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>pantallainicial</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>806</width>
+            <height>571</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>DVD_A_DIVX V.0.5</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>11</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>TextLabel1_5</cstring>
+            </property>
+            <property name="text">
+                <string>....</string>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>Layout15</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>GroupBox1</cstring>
+                    </property>
+                    <property name="title">
+                        <string>DVD</string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>11</number>
+                        </property>
+                        <property name="spacing">
+                            <number>6</number>
+                        </property>
+                        <widget class="QButtonGroup">
+                            <property name="name">
+                                <cstring>ButtonGroup2</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Length</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>DVD Length</string>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>11</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_90</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>90</string>
+                                    </property>
+                                    <property name="checked">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_100</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>100</string>
+                                    </property>
+                                </widget>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_110</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>110</string>
+                                    </property>
+                                </widget>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_120</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>120</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>LineEdit_duracion</cstring>
+                                    </property>
+                                    <property name="enabled">
+                                        <bool>true</bool>
+                                    </property>
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>40</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>40</width>
+                                            <height>32767</height>
+                                        </size>
+                                    </property>
+                                    <property name="text">
+                                        <string>90</string>
+                                    </property>
+                                    <property name="maxLength">
+                                        <number>3</number>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>Layout13</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>0</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>TextLabel2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Aspect</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Movie Aspect Relation</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>LineEdit_aspecto</cstring>
+                                    </property>
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>16</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>47</width>
+                                            <height>32767</height>
+                                        </size>
+                                    </property>
+                                    <property name="text">
+                                        <string>1.78</string>
+                                    </property>
+                                    <property name="maxLength">
+                                        <number>4</number>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>Spacer6_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>Layout12</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>0</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>TextLabel4</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Title Number</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>DVD title to extract. By default, is set to 1</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>LineEdit_titulo</cstring>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>31</width>
+                                            <height>32767</height>
+                                        </size>
+                                    </property>
+                                    <property name="text">
+                                        <string>1</string>
+                                    </property>
+                                    <property name="maxLength">
+                                        <number>2</number>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>Spacer7</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>Spacer22</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>0</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QButtonGroup">
+                            <property name="name">
+                                <cstring>ButtonGroup4</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Audio Language</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Audio Language to extract</string>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>11</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_alang_es</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Spanish</string>
+                                    </property>
+                                    <property name="checked">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_alang_en</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>English</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>LineEdit_alang</cstring>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>30</width>
+                                            <height>32767</height>
+                                        </size>
+                                    </property>
+                                    <property name="text">
+                                        <string>es</string>
+                                    </property>
+                                    <property name="maxLength">
+                                        <number>3</number>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>Spacer31</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                        <widget class="QButtonGroup">
+                            <property name="name">
+                                <cstring>ButtonGroup13_2</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Subtitle Language</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Subtitle language to extract</string>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>11</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_slang_ninguno</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>None</string>
+                                    </property>
+                                    <property name="checked">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_slang_es</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Spanish</string>
+                                    </property>
+                                </widget>
+                                <widget class="QRadioButton">
+                                    <property name="name">
+                                        <cstring>RadioButton_slang_en</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>English</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>LineEdit_slang</cstring>
+                                    </property>
+                                    <property name="enabled">
+                                        <bool>false</bool>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>30</width>
+                                            <height>32767</height>
+                                        </size>
+                                    </property>
+                                    <property name="text">
+                                        <string>es</string>
+                                    </property>
+                                    <property name="maxLength">
+                                        <number>3</number>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>Spacer32</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>GroupBox12</cstring>
+                    </property>
+                    <property name="title">
+                        <string>DIVX</string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>11</number>
+                        </property>
+                        <property name="spacing">
+                            <number>6</number>
+                        </property>
+                        <widget class="QGroupBox">
+                            <property name="name">
+                                <cstring>GroupBox_divx_video</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Video</string>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>11</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>Layout11</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>6</number>
+                                        </property>
+                                        <widget class="QLabel">
+                                            <property name="name">
+                                                <cstring>TextLabel5</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>Size</string>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Movie Image size</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLineEdit">
+                                            <property name="name">
+                                                <cstring>LineEdit_ancho</cstring>
+                                            </property>
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>40</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>40</width>
+                                                    <height>32767</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>500</string>
+                                            </property>
+                                            <property name="maxLength">
+                                                <number>3</number>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Movie Width</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLabel">
+                                            <property name="name">
+                                                <cstring>TextLabel6</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>X</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLineEdit">
+                                            <property name="name">
+                                                <cstring>LineEdit_alto</cstring>
+                                            </property>
+                                            <property name="enabled">
+                                                <bool>false</bool>
+                                            </property>
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>40</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>40</width>
+                                                    <height>32767</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>280</string>
+                                            </property>
+                                            <property name="maxLength">
+                                                <number>3</number>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Movie Height</string>
+                                            </property>
+                                        </widget>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>Spacer52</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Expanding</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>20</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>Layout12</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>6</number>
+                                        </property>
+                                        <widget class="QLabel">
+                                            <property name="name">
+                                                <cstring>TextLabel7</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>Bitrate</string>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Movie Image bitrate</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLineEdit">
+                                            <property name="name">
+                                                <cstring>LineEdit_bitrate_video</cstring>
+                                            </property>
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>50</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>50</width>
+                                                    <height>32767</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>0</string>
+                                            </property>
+                                            <property name="maxLength">
+                                                <number>6</number>
+                                            </property>
+                                        </widget>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>Spacer53</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Expanding</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>20</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>Layout10</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>6</number>
+                                        </property>
+                                        <widget class="QCheckBox">
+                                            <property name="name">
+                                                <cstring>CheckBox_recorte</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>Crop</string>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Image Cropping</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QPushButton">
+                                            <property name="name">
+                                                <cstring>PushButton_detectar_recorte</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>Detect</string>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Autodetect black borders</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>Layout11</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>6</number>
+                                        </property>
+                                        <widget class="QLabel">
+                                            <property name="name">
+                                                <cstring>TextLabel1_6</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>-vf crop=</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLineEdit">
+                                            <property name="name">
+                                                <cstring>LineEdit_recorte</cstring>
+                                            </property>
+                                            <property name="enabled">
+                                                <bool>false</bool>
+                                            </property>
+                                            <property name="maxLength">
+                                                <number>20</number>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QGroupBox">
+                                    <property name="name">
+                                        <cstring>GroupBox13</cstring>
+                                    </property>
+                                    <property name="title">
+                                        <string>Codec</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>File Video codec</string>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>11</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>6</number>
+                                        </property>
+                                        <widget class="QButtonGroup">
+                                            <property name="name">
+                                                <cstring>ButtonGroup10</cstring>
+                                            </property>
+                                            <property name="title">
+                                                <string>lavc</string>
+                                            </property>
+                                            <vbox>
+                                                <property name="name">
+                                                    <cstring>unnamed</cstring>
+                                                </property>
+                                                <property name="margin">
+                                                    <number>11</number>
+                                                </property>
+                                                <property name="spacing">
+                                                    <number>6</number>
+                                                </property>
+                                                <widget class="QRadioButton">
+                                                    <property name="name">
+                                                        <cstring>RadioButton_msmpeg4</cstring>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>msmpeg4</string>
+                                                    </property>
+                                                    <property name="checked">
+                                                        <bool>false</bool>
+                                                    </property>
+                                                    <property name="toolTip" stdset="0">
+                                                        <string>Codec Microsoft MPEG4</string>
+                                                    </property>
+                                                </widget>
+                                                <widget class="QRadioButton">
+                                                    <property name="name">
+                                                        <cstring>RadioButton_mpeg4</cstring>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>mpeg4</string>
+                                                    </property>
+                                                    <property name="checked">
+                                                        <bool>true</bool>
+                                                    </property>
+                                                    <property name="toolTip" stdset="0">
+                                                        <string>Codec MPEG4 standard</string>
+                                                    </property>
+                                                </widget>
+                                            </vbox>
+                                        </widget>
+                                        <widget class="QButtonGroup">
+                                            <property name="name">
+                                                <cstring>ButtonGroup13</cstring>
+                                            </property>
+                                            <property name="title">
+                                                <string>libdivx</string>
+                                            </property>
+                                            <vbox>
+                                                <property name="name">
+                                                    <cstring>unnamed</cstring>
+                                                </property>
+                                                <property name="margin">
+                                                    <number>11</number>
+                                                </property>
+                                                <property name="spacing">
+                                                    <number>6</number>
+                                                </property>
+                                                <widget class="QRadioButton">
+                                                    <property name="name">
+                                                        <cstring>RadioButton_divx4</cstring>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>divx4</string>
+                                                    </property>
+                                                    <property name="toolTip" stdset="0">
+                                                        <string>Codec Open DIVX</string>
+                                                    </property>
+                                                </widget>
+                                            </vbox>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <widget class="QGroupBox">
+                            <property name="name">
+                                <cstring>GroupBox_divx_audio</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Audio</string>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>11</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>Layout13</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>6</number>
+                                        </property>
+                                        <widget class="QLabel">
+                                            <property name="name">
+                                                <cstring>TextLabel1_3</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>Volume</string>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Movie Volume amplification (100% = original volume)</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QSpinBox">
+                                            <property name="name">
+                                                <cstring>SpinBox_volumen</cstring>
+                                            </property>
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>70</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>70</width>
+                                                    <height>32767</height>
+                                                </size>
+                                            </property>
+                                            <property name="suffix">
+                                                <string>%</string>
+                                            </property>
+                                            <property name="buttonSymbols">
+                                                <enum>PlusMinus</enum>
+                                            </property>
+                                            <property name="maxValue">
+                                                <number>999</number>
+                                            </property>
+                                            <property name="lineStep">
+                                                <number>5</number>
+                                            </property>
+                                            <property name="value">
+                                                <number>250</number>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string></string>
+                                            </property>
+                                        </widget>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>Spacer54</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Expanding</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>20</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                    </hbox>
+                                </widget>
+                                <widget class="QButtonGroup">
+                                    <property name="name">
+                                        <cstring>ButtonGroup6</cstring>
+                                    </property>
+                                    <property name="title">
+                                        <string>Bitrate</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Movie Audio Bitrate</string>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>11</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>6</number>
+                                        </property>
+                                        <widget class="QRadioButton">
+                                            <property name="name">
+                                                <cstring>RadioButton_bitrate_audio_96</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>96</string>
+                                            </property>
+                                            <property name="checked">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                        <widget class="QRadioButton">
+                                            <property name="name">
+                                                <cstring>RadioButton_bitrate_audio_128</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>128</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLineEdit">
+                                            <property name="name">
+                                                <cstring>LineEdit_bitrate_audio</cstring>
+                                            </property>
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>40</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>40</width>
+                                                    <height>32767</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>96</string>
+                                            </property>
+                                            <property name="maxLength">
+                                                <number>3</number>
+                                            </property>
+                                        </widget>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>Spacer10</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Expanding</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>20</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                    </hbox>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>Spacer15</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>0</width>
+                                    <height>16</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>Layout14</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>0</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>TextLabel1</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>File Size (MB)</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Expected movie file size (in MegaBytes)</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>LineEdit_tamanyo_archivo</cstring>
+                                    </property>
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>40</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>40</width>
+                                            <height>32767</height>
+                                        </size>
+                                    </property>
+                                    <property name="text">
+                                        <string>680</string>
+                                    </property>
+                                    <property name="maxLength">
+                                        <number>4</number>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>Spacer55</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="QFrame">
+                    <property name="name">
+                        <cstring>Frame5</cstring>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>Raised</enum>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string></string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>11</number>
+                        </property>
+                        <property name="spacing">
+                            <number>6</number>
+                        </property>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>PushButton4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>View DVD</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>View DVD and related info</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>PushButton5</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Preview DIVX</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Preview the generated DIVX file</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>PushButton_directorio</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Folder</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Folder to store the movie</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>LineEdit_ruta</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>158</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>/tmp/</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Folder to store the movie</string>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>Layout15</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>0</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>TextLabel1_4</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Movie Name:</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Nombre de la pelicula</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>LineEdit_pelicula</cstring>
+                                    </property>
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>158</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                    <property name="text">
+                                        <string>hello</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Movie Name</string>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>Spacer6</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>0</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>TextLabel1_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>File Size:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>Layout10</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>0</number>
+                                </property>
+                                <property name="spacing">
+                                    <number>6</number>
+                                </property>
+                                <widget class="QLCDNumber">
+                                    <property name="name">
+                                        <cstring>LCDNumber1</cstring>
+                                    </property>
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>75</width>
+                                            <height>40</height>
+                                        </size>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>Box</enum>
+                                    </property>
+                                    <property name="frameShadow">
+                                        <enum>Raised</enum>
+                                    </property>
+                                    <property name="numDigits">
+                                        <number>4</number>
+                                    </property>
+                                    <property name="segmentStyle">
+                                        <enum>Flat</enum>
+                                    </property>
+                                    <property name="intValue" stdset="0">
+                                        <number>0</number>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>File size</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>TextLabel1_2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>MB</string>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>Spacer4_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                        <widget class="QProgressBar">
+                            <property name="name">
+                                <cstring>ProgressBar1</cstring>
+                            </property>
+                            <property name="progress">
+                                <number>0</number>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>File progress</string>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QFrame">
+            <property name="name">
+                <cstring>Frame6</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Raised</enum>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>11</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer4</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>PushButton6</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Create DIVX</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Build the DIVX file</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>PushButton7</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Exit</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Exit program</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>PushButton_acerca_de</cstring>
+                    </property>
+                    <property name="text">
+                        <string>About...</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Author, comments ...</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="505">89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff61000001c049444154789c9592c16adb4010863f853c44053a747d6a6e568f235c88421fa0c1979a402167e7051a4ca1b47d81a60f10303d15f7018c9ae2b07b547a734eda8b60f316d3832c59b6a1d0813decccfeffccfcff46ce39f6e3e6eb8d9ebc38e9eeebc735d3ab6974f01038ee5f8a65a1bfee667cfa68bb9cf79efc34474414c039b74314b51314cb42f3d31c80388909f500c1b21fd1ab6c87e4a8059be706198124014309581cd9169904188155cbf5fb669a8e60f661868c047c00136f4ad97682a4c93b20f63177bf7b234dde4ed4aeacda155a55956af54355ada6c3540105747e3b57ab56abaa52bb52b52b55409d731cf5d50e75c0d5635ea653cedf9c77bb5ebcbb807b08b5d9bcdc3a77d4174800b03cfc79e0ecf559d457dd7bbf01eedade23b03ba5d6b66259683a4c7b956cd36843b07e5cf7fa37677e3b271da688882e7e2e2817d718639024207b8d22e71c22a276a5c48927988000eebe1d9b063c02ef630c25f9e598cf5f9ad57a3fd1114c6313940831620c8e8c38a9c0971803b06be3712b9488a8aa054aa8e34e6b799ae093edfe51c4e14f6c49a22823bf1cc3d3b74e15f7ec3ba11e100dc607e04e83fd681de8c73ef09f04ff137f012ae3d65b504f5e410000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>RadioButton_divx4</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_desactiva_lavc()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_msmpeg4</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_desactiva_divx4()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_mpeg4</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_desactiva_divx4()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_100</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_duracion_100()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_110</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_duracion_110()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_120</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_duracion_120()</slot>
+    </connection>
+    <connection>
+        <sender>LineEdit_aspecto</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_alto()</slot>
+    </connection>
+    <connection>
+        <sender>LineEdit_ancho</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_alto()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_90</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_duracion_90()</slot>
+    </connection>
+    <connection>
+        <sender>LineEdit_duracion</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_bitrate_y_ancho()</slot>
+    </connection>
+    <connection>
+        <sender>PushButton4</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_ver_dvd()</slot>
+    </connection>
+    <connection>
+        <sender>PushButton6</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_crear_divx()</slot>
+    </connection>
+    <connection>
+        <sender>PushButton5</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_previsualizar_divx()</slot>
+    </connection>
+    <connection>
+        <sender>PushButton7</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>reject()</slot>
+    </connection>
+    <connection>
+        <sender>PushButton_acerca_de</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_acerca_de()</slot>
+    </connection>
+    <connection>
+        <sender>LineEdit_tamanyo_archivo</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_bitrate_y_ancho()</slot>
+    </connection>
+    <connection>
+        <sender>PushButton_directorio</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_elegir_directorio()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_alang_es</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_alang_es()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_alang_en</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_alang_en()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_slang_ninguno</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_slang_ninguno()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_slang_es</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_slang_es()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_slang_en</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_slang_en()</slot>
+    </connection>
+    <connection>
+        <sender>LineEdit_bitrate_audio</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_bitrate_y_ancho()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_bitrate_audio_128</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_bitrate_audio_128()</slot>
+    </connection>
+    <connection>
+        <sender>RadioButton_bitrate_audio_96</sender>
+        <signal>clicked()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_pon_bitrate_audio_96()</slot>
+    </connection>
+    <connection>
+        <sender>PushButton_detectar_recorte</sender>
+        <signal>pressed()</signal>
+        <receiver>pantallainicial</receiver>
+        <slot>slot_detectar_recorte()</slot>
+    </connection>
+    <connection>
+        <sender>CheckBox_recorte</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>LineEdit_recorte</receiver>
+        <slot>setEnabled(bool)</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>slot_acerca_de()</slot>
+    <slot>slot_crear_divx()</slot>
+    <slot>slot_desactiva_divx4()</slot>
+    <slot>slot_desactiva_lavc()</slot>
+    <slot>slot_detectar_recorte()</slot>
+    <slot>slot_elegir_directorio()</slot>
+    <slot>slot_pon_alang_en()</slot>
+    <slot>slot_pon_alang_es()</slot>
+    <slot>slot_pon_alto()</slot>
+    <slot>slot_pon_bitrate_audio_128()</slot>
+    <slot>slot_pon_bitrate_audio_96()</slot>
+    <slot>slot_pon_bitrate_y_ancho()</slot>
+    <slot>slot_pon_duracion_100()</slot>
+    <slot>slot_pon_duracion_110()</slot>
+    <slot>slot_pon_duracion_120()</slot>
+    <slot>slot_pon_duracion_90()</slot>
+    <slot>slot_pon_slang_en()</slot>
+    <slot>slot_pon_slang_es()</slot>
+    <slot>slot_pon_slang_ninguno()</slot>
+    <slot>slot_previsualizar_divx()</slot>
+    <slot>slot_ver_dvd()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

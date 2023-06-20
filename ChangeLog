@@ -1,0 +1,27 @@
+08 Ene 2005
+dvd_a_divx 0.5
+-Cambio a kdevelop 3
+-Añadido soporte para recorte
+-Eliminado forzar tema por defecto (platinum)
+
+14 Sep 2002
+dvd_a_divx 0.4
+-Añadido soporte de menus
+-Añadido soporte multilenguaje: español,catalan,ingles
+
+
+8 Sep 2002
+dvd_a_divx 0.3
+-Añadido seleccion de idiomas de audio/subtitulos
+-Añadido boton calidad audio
+-Corregido fallo con la seleccion del bitrate de video inicial
+
+
+
+3 Sep 2002
+dvd_a_divx 0.2
+Añadido boton para seleccionar directorio de salida
+y nombre de pelicula
+
+dvd_a_divx 0.1
+Primera version

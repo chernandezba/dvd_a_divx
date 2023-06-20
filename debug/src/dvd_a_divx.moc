@@ -1,0 +1,92 @@
+/****************************************************************************
+** dvd_a_divx meta object code from reading C++ file 'dvd_a_divx.h'
+**
+** Created: Sat Jan 8 12:51:00 2005
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.1   edited Feb 18 14:21 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "../../src/dvd_a_divx.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *dvd_a_divx::className() const
+{
+    return "dvd_a_divx";
+}
+
+QMetaObject *dvd_a_divx::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_dvd_a_divx( "dvd_a_divx", &dvd_a_divx::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString dvd_a_divx::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "dvd_a_divx", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString dvd_a_divx::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "dvd_a_divx", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* dvd_a_divx::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KMainWindow::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"dvd_a_divx", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_dvd_a_divx.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* dvd_a_divx::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "dvd_a_divx" ) )
+	return this;
+    return KMainWindow::qt_cast( clname );
+}
+
+bool dvd_a_divx::qt_invoke( int _id, QUObject* _o )
+{
+    return KMainWindow::qt_invoke(_id,_o);
+}
+
+bool dvd_a_divx::qt_emit( int _id, QUObject* _o )
+{
+    return KMainWindow::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool dvd_a_divx::qt_property( int id, int f, QVariant* v)
+{
+    return KMainWindow::qt_property( id, f, v);
+}
+
+bool dvd_a_divx::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

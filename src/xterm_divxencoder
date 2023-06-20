@@ -1,0 +1,6 @@
+#!/bin/sh
+
+konsole -e divxencoder_sleep "$@"
+
+
+

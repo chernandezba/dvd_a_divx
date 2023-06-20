@@ -1,0 +1,5 @@
+#!/bin/sh
+#mplayer -hardframedrop "$@"
+echo "$@"
+mplayer -framedrop "$@"
+

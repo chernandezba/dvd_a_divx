@@ -1,0 +1,5 @@
+#!/bin/sh
+
+konsole -e divxplayer_sleep "$@"
+
+
